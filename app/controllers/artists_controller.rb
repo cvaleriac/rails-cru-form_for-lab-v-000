@@ -34,5 +34,5 @@ class ArtistsController < ApplicationController
     params.require(:artist).permit(:name, :bio)
   end
 
-  
+
 end
